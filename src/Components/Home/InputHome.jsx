@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { setNameGlobal } from '../../store/slices/userName.slice'
 
-const InputHome = () => {
+const InputHome = ({setIsLogged}) => {
 
   const {handleSubmit, reset, register} =  useForm()
 
@@ -13,12 +13,14 @@ const InputHome = () => {
   const navigate = useNavigate()
 
   const submit = data => {
-    console.log(data)
     dispatch(setNameGlobal(data.userName))
-    reset({
-      userName:''
-    })
-    navigate('/pokedex')
+    if (data.userName.trim() !== '') {
+      setIsLogged(true)
+      navigate('/pokedex')
+    }else {
+      navigate('/error')
+    }
+    
   }
 
   return (
