@@ -176,8 +176,8 @@ header img {
 }
 
 .welcome {
-  margin-top: 2em;
-  margin-left: 2em;
+  text-align: center;
+  padding: 2em;
   font-size: 1.5em;
 }
 /* poke cards*/
@@ -238,6 +238,10 @@ header img {
 .container-info h2 {
   margin-top: 3em;
 }
+
+/*PAGE ERROR*/
+
+
 
 @media (max-width:1024px){
 
@@ -406,8 +410,7 @@ header img {
 }
 
 .welcome {
-  margin-top: 2em;
-  margin-left: 2em;
+  padding: 2em;
   font-size: 1.5em;
 }
 /* poke cards*/
@@ -637,8 +640,7 @@ header img {
 }
 
 .welcome {
-  margin-top: 2em;
-  margin-left: 2em;
+  padding: 2em;
   font-size: 1.5em;
 }
 /* poke cards*/
@@ -867,8 +869,7 @@ header img {
 }
 
 .welcome {
-  margin-top: 2em;
-  margin-left: 2em;
+  padding: 2em;
   font-size: 1.5em;
 }
 /* poke cards*/
@@ -1099,8 +1100,6 @@ header img {
 
 .welcome {
   padding: 1em;
-  margin-top: 0;
-  margin-left: 0;
   font-size: 1.5em;
 }
 /* poke cards*/
