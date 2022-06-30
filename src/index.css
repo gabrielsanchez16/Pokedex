@@ -349,6 +349,125 @@ header img {
     top: 100%;
     margin-top: 20em;
   }
+
+  /*pokedex main */
+
+header .circle-black { 
+  padding: .3em;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left:83%;
+  bottom: -12%;
+}
+
+header .flag-red {
+  height: 6em;
+}
+header .flag-black{
+  height: 3em;
+}
+header .flag-red {
+  background-color: red;
+}
+
+header .flag-black {
+  background-color: black;
+}
+
+header .circle-white {
+  background-color: white;
+  padding: .8em;
+  border-radius: 50%;
+
+}
+
+header .circle-black2 {
+  background-color: black;
+  padding: .7em;
+  border-radius: 50%;
+}
+
+header .circle-black-mate {
+  background-color: rgb(26, 24, 24);
+  padding: .9em;
+  border-radius: 50%;
+}
+
+header img {
+  position: absolute;
+  top:20%;
+  left:6%;
+}
+
+.name-user {
+  color: red;
+  font-weight: 600;
+}
+
+.welcome {
+  margin-top: 2em;
+  margin-left: 2em;
+  font-size: 1.5em;
+}
+/* poke cards*/
+.poke-card {
+  text-align: center;
+  box-shadow: 0px 10px 33px -17px rgba(173, 173, 173, 1);
+  background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+  position: relative;
+  border-radius: 10px;
+  border: solid #2cb9b7 8px;
+}
+.poke-card img {
+  width: 250px;
+  position: absolute;
+  right: 5%;
+  bottom: 40%;
+}
+
+.poke-card hr {
+  margin-bottom: 1em;
+  background-color: rgb(158, 158, 158,.8);
+}
+
+.poke-card p {
+  margin-bottom: 1em;
+  color:rgb(87, 87, 87);
+}
+
+.container-ul {
+  display: flex;
+  justify-content: center;
+  gap:30px;
+}
+
+.container-ul li span {
+  color: #2cb9b7;
+}
+
+.poke-card ul {
+  text-align: start;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 4em;
+}
+
+.container-info {
+  padding: 1em;
+  margin-top: 10em;
+  background-color: white;
+
+}
+
+.container-info h2 {
+  margin-top: 3em;
+}
 }
 
 @media (max-width:724px){
@@ -460,6 +579,126 @@ header img {
     top: 100%;
     margin-top: 20em;
   }
+
+  /*pokedex main */
+
+header .circle-black { 
+  padding: .3em;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left:83%;
+  bottom: -12%;
+}
+
+header .flag-red {
+  height: 6em;
+}
+header .flag-black{
+  height: 3em;
+}
+header .flag-red {
+  background-color: red;
+}
+
+header .flag-black {
+  background-color: black;
+}
+
+header .circle-white {
+  background-color: white;
+  padding: .8em;
+  border-radius: 50%;
+
+}
+
+header .circle-black2 {
+  background-color: black;
+  padding: .7em;
+  border-radius: 50%;
+}
+
+header .circle-black-mate {
+  background-color: rgb(26, 24, 24);
+  padding: .6em;
+  border-radius: 50%;
+}
+
+header img {
+  position: absolute;
+  top:30%;
+  left:6%;
+  width: 300px;
+}
+
+.name-user {
+  color: red;
+  font-weight: 600;
+}
+
+.welcome {
+  margin-top: 2em;
+  margin-left: 2em;
+  font-size: 1.5em;
+}
+/* poke cards*/
+.poke-card {
+  text-align: center;
+  box-shadow: 0px 10px 33px -17px rgba(173, 173, 173, 1);
+  background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+  position: relative;
+  border-radius: 10px;
+  border: solid #2cb9b7 8px;
+}
+.poke-card img {
+  width: 250px;
+  position: absolute;
+  right: 5%;
+  bottom: 40%;
+}
+
+.poke-card hr {
+  margin-bottom: 1em;
+  background-color: rgb(158, 158, 158,.8);
+}
+
+.poke-card p {
+  margin-bottom: 1em;
+  color:rgb(87, 87, 87);
+}
+
+.container-ul {
+  display: flex;
+  justify-content: center;
+  gap:30px;
+}
+
+.container-ul li span {
+  color: #2cb9b7;
+}
+
+.poke-card ul {
+  text-align: start;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 4em;
+}
+
+.container-info {
+  padding: 1em;
+  margin-top: 10em;
+  background-color: white;
+
+}
+
+.container-info h2 {
+  margin-top: 3em;
+}
 }
 
 @media (max-width:480px){
@@ -571,6 +810,125 @@ header img {
     top: 100%;
     margin-top: 10em;
   }
+  /*pokedex main */
+
+header .circle-black { 
+  padding: .3em;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left:75%;
+  bottom: -10%;
+}
+
+header .flag-red {
+  height: 6em;
+}
+header .flag-black{
+  height: 3em;
+}
+header .flag-red {
+  background-color: red;
+}
+
+header .flag-black {
+  background-color: black;
+}
+
+header .circle-white {
+  background-color: white;
+  padding: .8em;
+  border-radius: 50%;
+
+}
+
+header .circle-black2 {
+  background-color: black;
+  padding: .7em;
+  border-radius: 50%;
+}
+
+header .circle-black-mate {
+  background-color: rgb(26, 24, 24);
+  padding: .5em;
+  border-radius: 50%;
+}
+
+header img {
+  position: absolute;
+  top:36%;
+  left:5%;
+  width: 250px;
+}
+
+.name-user {
+  color: red;
+  font-weight: 600;
+}
+
+.welcome {
+  margin-top: 2em;
+  margin-left: 2em;
+  font-size: 1.5em;
+}
+/* poke cards*/
+.poke-card {
+  text-align: center;
+  box-shadow: 0px 10px 33px -17px rgba(173, 173, 173, 1);
+  background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+  position: relative;
+  border-radius: 10px;
+  border: solid #2cb9b7 8px;
+}
+.poke-card img {
+  width: 250px;
+  position: absolute;
+  right: 5%;
+  bottom: 40%;
+}
+
+.poke-card hr {
+  margin-bottom: 1em;
+  background-color: rgb(158, 158, 158,.8);
+}
+
+.poke-card p {
+  margin-bottom: 1em;
+  color:rgb(87, 87, 87);
+}
+
+.container-ul {
+  display: flex;
+  justify-content: center;
+  gap:30px;
+}
+
+.container-ul li span {
+  color: #2cb9b7;
+}
+
+.poke-card ul {
+  text-align: start;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 4em;
+}
+
+.container-info {
+  padding: 1em;
+  margin-top: 10em;
+  background-color: white;
+
+}
+
+.container-info h2 {
+  margin-top: 3em;
+}
 }
 
 @media (max-width:375px){
@@ -683,5 +1041,125 @@ header img {
     top: 100%;
     margin-top: 10em;
   }
+ /*pokedex main */
+
+header .circle-black { 
+  padding: .3em;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left:75%;
+  bottom: -10%;
+}
+
+header .flag-red {
+  height: 4em;
+}
+header .flag-black{
+  height: 3em;
+}
+header .flag-red {
+  background-color: red;
+}
+
+header .flag-black {
+  background-color: black;
+}
+
+header .circle-white {
+  background-color: white;
+  padding: .8em;
+  border-radius: 50%;
+
+}
+
+header .circle-black2 {
+  background-color: black;
+  padding: .6em;
+  border-radius: 50%;
+}
+
+header .circle-black-mate {
+  background-color: rgb(26, 24, 24);
+  padding: .5em;
+  border-radius: 50%;
+}
+
+header img {
+  position: absolute;
+  top:25%;
+  left:5%;
+  width: 200px;
+}
+
+.name-user {
+  color: red;
+  font-weight: 600;
+}
+
+.welcome {
+  padding: 1em;
+  margin-top: 0;
+  margin-left: 0;
+  font-size: 1.5em;
+}
+/* poke cards*/
+.poke-card {
+  text-align: center;
+  box-shadow: 0px 10px 33px -17px rgba(173, 173, 173, 1);
+  background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+  position: relative;
+  border-radius: 10px;
+  border: solid #2cb9b7 8px;
+}
+.poke-card img {
+  width: 250px;
+  position: absolute;
+  right: 5%;
+  bottom: 40%;
+}
+
+.poke-card hr {
+  margin-bottom: 1em;
+  background-color: rgb(158, 158, 158,.8);
+}
+
+.poke-card p {
+  margin-bottom: 1em;
+  color:rgb(87, 87, 87);
+}
+
+.container-ul {
+  display: flex;
+  justify-content: center;
+  gap:30px;
+}
+
+.container-ul li span {
+  color: #2cb9b7;
+}
+
+.poke-card ul {
+  text-align: start;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 4em;
+}
+
+.container-info {
+  padding: 1em;
+  margin-top: 10em;
+  background-color: white;
+
+}
+
+.container-info h2 {
+  margin-top: 3em;
+}
 }
 

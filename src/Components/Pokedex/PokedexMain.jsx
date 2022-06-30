@@ -10,7 +10,7 @@ const Pokedex = () => {
   const [pokemons, setPokemons] = useState()
 
   useEffect(() => {
-    const URL = 'https://pokeapi.co/api/v2/pokemon/?offset=00&limit=05'
+    const URL = 'https://pokeapi.co/api/v2/pokemon/?offset=00&limit=20'
       axios.get(URL)
         .then(res => setPokemons(res.data.results))
         .catch(err => console.log('err'))

@@ -12,13 +12,16 @@ const PokemonCard = ({ url }) => {
 
     }, [])
 
+    const colorchange = {
+        water:"",
+    }
 
     return (
         <article className='poke-card'>
             <img src={pokemon?.sprites.other['official-artwork'].front_default} alt="Pokemon-image" />
             <div className='container-info'>
                 <h2>{pokemon?.name}</h2>
-                <h3>{pokemon?.types[0].type.name}</h3>
+                <h3>{pokemon?.types[0].type.name}/{pokemon?.types[1]?.type.name}</h3>
                 <p>Tipo</p>
                 <hr />
                 <div  className='container-ul'>
