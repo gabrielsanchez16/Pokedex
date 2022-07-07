@@ -12,7 +12,7 @@
 
 
 .Home{
-  height: 100vh;
+  
   position: relative;
 }
 .container-home {
@@ -50,7 +50,7 @@
 
 .container-div{
   position: relative;
-  width: 100vw;
+  
 }
 
 .flag-red {
@@ -115,9 +115,7 @@
 }
 
 footer {
-  position: absolute;
-  top: 100%;
-  margin-top: 10em;
+  margin-top: 5em;
 }
 
 /*pokedex main */
@@ -187,7 +185,8 @@ header img {
   background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
   position: relative;
   border-radius: 10px;
-  border: solid #2cb9b7 8px;
+  border: solid #2cb9b7 10px;
+  cursor: pointer;
 }
 .poke-card img {
   width: 250px;
@@ -212,9 +211,7 @@ header img {
   gap:30px;
 }
 
-.container-ul li span {
-  color: #2cb9b7;
-}
+
 
 .poke-card ul {
   text-align: start;
@@ -241,6 +238,119 @@ header img {
 
 /*PAGE ERROR*/
 
+.text-error {
+  text-align: center;
+  margin: 2em;
+  color: red;
+  
+}
+
+/*INPUT SEARCH*/
+
+.select {
+  margin-top: 2em;
+  border: none;
+  padding: .6em;
+  border-radius: 10px;
+  color: black;
+  font-weight: 600;
+  background-color: #F6F6F6;
+  cursor: pointer;
+  font-size: 1.1em;
+  outline: none;
+}
+
+.search-input input {
+  outline: none;
+}
+
+/*PAGINATION*/
+
+.container-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top:2em ;
+  color: red;
+  font-weight: 600;
+}
+
+.container-pagination ul {
+  display: flex;
+  gap: 10px;
+}
+.container-pagination ul li,span {
+  cursor: pointer;
+}
+
+.sub-container-pagination {
+  background-color: #F6F6F6;
+  display: flex;
+  gap: 10px;
+  padding: .5em;
+  border-radius: 10px;
+  cursor: auto;
+}
+
+/*Colaborators*/
+.footer-colaborators {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  color: #ad3100;
+  margin-top: 2em;
+}
+.footer-colaborators article {
+  background-color: #000000;
+  border-radius: 20px;
+  border: solid 8px #ad3100;
+  padding: 1em;
+  
+}
+
+.footer-colaborators h2 {
+  font-size: 2em;
+}
+.container-colaborators {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+.miguel{
+width: 110px;
+height: 150px;
+border-radius: 50%;
+
+}
+
+.gabriel{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+}
+.footer-colaborators ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-colaborators ul {
+  margin-top: 10px;
+}
+.footer-colaborators svg {
+  font-size: 2em;
+  color: #ad3100;
+}
+
+.footer-colaborators svg:hover {
+  color: rgb(95, 8, 114);
+  transition: 1s;
+}
 
 
 @media (max-width:1024px){
@@ -473,6 +583,19 @@ header img {
 }
 }
 
+/*PAGE ERROR*/
+
+.text-error {
+  text-align: center;
+  margin: 2em;
+  color: red;
+  
+}
+
+.text-error img {
+ width: 400px;
+}
+
 @media (max-width:724px){
   .Home{
     height: 100vh;
@@ -700,6 +823,19 @@ header img {
 
 .container-info h2 {
   margin-top: 3em;
+}
+/*PAGE ERROR*/
+
+.text-error {
+  text-align: center;
+  margin: 2em;
+  color: red;
+  font-size: .8em;
+  
+}
+
+.text-error img {
+ width: 350px;
 }
 }
 
@@ -930,6 +1066,20 @@ header img {
 .container-info h2 {
   margin-top: 3em;
 }
+
+/*PAGE ERROR*/
+
+.text-error {
+  text-align: center;
+  margin: 2em;
+  color: red;
+  font-size: .8em;
+  
+}
+
+.text-error img {
+ width: 250px;
+}
 }
 
 @media (max-width:375px){
@@ -1159,6 +1309,19 @@ header img {
 
 .container-info h2 {
   margin-top: 3em;
+}
+/*PAGE ERROR*/
+
+.text-error {
+  text-align: center;
+  margin: 2em;
+  color: red;
+  font-size: .8em;
+  
+}
+
+.text-error img {
+ width: 220px;
 }
 }
 
