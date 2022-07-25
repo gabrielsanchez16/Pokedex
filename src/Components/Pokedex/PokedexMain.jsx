@@ -132,7 +132,7 @@ const Pokedex = () => {
       
       </div>
       <div className='footer-colaborators'>
-        <h2>Colaborators</h2>
+        <h2>Collaborators</h2>
         <div className='container-colaborators'>
             <article>
               
