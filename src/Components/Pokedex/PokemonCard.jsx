@@ -76,7 +76,7 @@ const PokemonCard = ({ url }) => {
         background: colorchange[pokemon?.types[0].type.name],
         borderColor: colorBorder[pokemon?.types[0].type.name],
       }}
-      onClick={() => navigate(`/PokedexId/${pokemon.id}`)}
+      onClick={() => navigate(`/pokedexid/${pokemon.id}`)}
     >
       <img
         src={pokemon?.sprites.other["official-artwork"].front_default}

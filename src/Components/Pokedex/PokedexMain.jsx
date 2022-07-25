@@ -5,8 +5,6 @@ import PokemonCard from './PokemonCard'
 import image from '../../img/image 12.png'
 import Pagination from './Pagination'
 import Forms from './Forms'
-import imageGa from '../../img/gabriel.jpeg'
-import imageMi from '../../img/miguel.jpeg'
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 const Pokedex = () => {
@@ -142,14 +140,6 @@ const Pokedex = () => {
               <ul>
                 <li><a href="https://www.linkedin.com/in/gabriel-sanchez-717222206/"><BsLinkedin/></a></li>
                 <li><a href="https://github.com/gabrielsanchez16"><BsGithub/></a></li>
-              </ul>
-            </article>
-            <article>
-              
-              <h3>Miguel Chavez</h3>
-              <ul>
-                <li><a href=""><BsLinkedin/></a></li>
-                <li><a href=""><BsGithub/></a></li>
               </ul>
             </article>
         </div>

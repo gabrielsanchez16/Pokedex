@@ -321,18 +321,7 @@ header img {
   flex-wrap: wrap;
   margin-top: 2em;
 }
-.miguel{
-width: 110px;
-height: 150px;
-border-radius: 50%;
 
-}
-
-.gabriel{
-width: 150px;
-height: 150px;
-border-radius: 50%;
-}
 .footer-colaborators ul {
   display: flex;
   justify-content: center;

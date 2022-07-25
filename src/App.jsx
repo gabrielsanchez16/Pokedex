@@ -19,7 +19,7 @@ function App() {
 
         <Route element={<Private isLogged={isLogged} />}></Route>
         <Route path='/pokedex' element={<PokedexMain />}></Route>
-        <Route path='/pokedex:id' element={<PokemonId />}></Route>
+        <Route path='/pokedexid' element={<PokemonId />}></Route>
       </Routes>
     </div>
   )
